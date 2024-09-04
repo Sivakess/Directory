@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        #form {
+            width: 80%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px; /* Limiting maximum width for larger screens */
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px; /* Adding some space below the heading */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px; /* Reducing margin bottom for input fields */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #6c45a0;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h1>Login Form</h1>
+        <form name="form" action="data_insert.php" method="POST">
+           
+            <input type="text" name="d_id" placeholder="ID"><br>
+           
+            <input type="text" name="dist" placeholder="District" required><br>
+           
+            <input type="text" name="const" placeholder="Assembly constituney name" required><br>
+           
+            <input type="text" name="vpt" placeholder="Village panchayat" required><br>
+           
+            <input type="text" name="bpt" placeholder="Block panchayat" required><br>
+          
+            <input type="text" name="cpc" placeholder="Parliment constituency" required><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

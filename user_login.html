@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>User Login</title>
+   <style>
+      body {
+         margin: 0;
+         padding: 0;
+         font-family: Arial, sans-serif;
+         background-color: #f0f0f007;
+      }
+
+      .container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+      }
+
+      .content {
+         background-color: #ffffff17;
+         padding: 40px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+         text-align: center;
+      }
+
+      h2 {
+         color: #333;
+         margin-bottom: 20px;
+      }
+
+      h1 {
+         margin-bottom: 30px;
+         color: cyan;
+      }
+
+      span {
+         color: #333;
+         font-weight: bold;
+      }
+
+      .btn {
+         display: inline-block;
+         background-color: black;
+         color: #fff;
+         padding: 12px 24px;
+         text-decoration: none;
+         border-radius: 5px;
+         margin: 10px;
+         transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+         background-color: cyan;
+      }
+
+      .btn-group {
+         margin-top: 30px;
+      }
+
+      .btn-group a {
+         display: block;
+         margin-bottom: 10px;
+      }
+
+      .btn-group a:last-child {
+         margin-bottom: 0;
+      }
+   </style>
+</head>
+<body>
+
+<div class="container">
+   <div class="content">
+      <h2>Local Government Directory</h2>
+      <h1>Welcome, <span>User</span>!</h1>
+
+      <div class="btn-group">
+         <a href="select_data.html" class="btn">All Details</a>
+         <a href="district_data.html" class="btn">Districtwise</a>
+         <a href="constiuency_data.html" class="btn">Constiuencywise</a>
+         <a href="village_data.html" class="btn">Villagewise</a>
+         <a href="block_data.html" class="btn">Blockwise</a>
+         <a href="p-data.html" class="btn">Parliamentwise</a>
+      </div>
+
+     
+   </div>
+</div>
+
+</body>
+</html>

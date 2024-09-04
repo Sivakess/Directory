@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif; /* Apply Google Font */
+            background-image: url('tn map.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(8px); /* Adds a blur effect to the background */
+        }
+
+        #form {
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+            width: 90%;
+            max-width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow for a more pronounced effect */
+            animation: fadeIn 1s ease-in-out; /* Smooth fade-in animation */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: 600; /* Apply a bolder weight from the Google Font */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #0c0303;
+            font-size: 18px;
+            font-weight: 400; /* Use normal weight for labels */
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif; /* Ensure input fields also use the Google Font */
+            box-sizing: border-box;
+            background-color: #f9f9f9; /* Light background color for input fields */
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #007bff; /* Blue border on focus */
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Subtle blue glow on focus */
+            outline: none;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif; /* Apply Google Font to the submit button */
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #42b300;
+            transform: scale(1.05); /* Slightly enlarges the button on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h1>Login</h1>
+        <form name="loginForm" action="login.php" method="POST">
+            <label for="user">Username:</label>
+            <input type="text" id="user" name="user" required>
+            
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required>
+            
+            <input type="submit" value="Login" name="submit">
+        </form>
+    </div>
+</body>
+</html>

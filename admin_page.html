@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      body {
+         margin: 0;
+         padding: 0;
+         font-family: Arial, sans-serif;
+         background-color: #f0f0f007;
+      }
+
+      .container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 100vh;
+      }
+
+      .content {
+         background-color: #ffffff17;
+         padding: 40px;
+         border-radius: 10px;
+         box-shadow: 10px 10px 20px rgba(20, 56, 67, 0.1);
+         text-align: center;
+      }
+
+      h2 {
+         color: #333;
+         margin-bottom: 20px;
+      }
+
+      h1 {
+         margin-bottom: 30px;
+         color: cyan;
+      }
+
+      span {
+         color: #333;
+         font-weight: bold;
+      }
+
+      .btn {
+         display: inline-block;
+         background-color: black;
+         color: #fff;
+         padding: 12px 24px;
+         text-decoration: none;
+         border-radius: 5px;
+         margin: 10px;
+         transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+         background-color: cyan;
+      }
+
+      .btn-group {
+         margin-top: 30px;
+      }
+
+      .btn-group a {
+         display: block;
+         margin-bottom: 10px;
+      }
+
+      .btn-group a:last-child {
+         margin-bottom: 0;
+      }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Local Government Directory</h2>
+            <h1>Welcome, <span>User</span>!</h1>
+            <div class="btn-group">
+                <a href="insert_data.html" class="btn">INSERT</a>
+            </div>
+            <div class="btn-group">
+                <a href="update_data.html" class="btn">UPDATE</a>
+            </div>
+            <div class="btn-group">
+                <a href="delete_data.html" class="btn">DELETE</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+1,KANCHEEPURAM,Alandur,Ayyappanthangal,KUNDRATHUR,Sriperumbudur
+2,KANCHEEPURAM,Alandur,Gerugambakkam,KUNDRATHUR,Sriperumbudur
+3,KANCHEEPURAM,Alandur,Irandankattalai,KUNDRATHUR,Sriperumbudur
+4,KANCHEEPURAM,Alandur,Kovur,KUNDRATHUR,Sriperumbudur
+5,KANCHEEPURAM,Alandur,Kolapakkam,KUNDRATHUR,Sriperumbudur
+6,KANCHEEPURAM,Alandur,Mowlivakkam,KUNDRATHUR,Sriperumbudur
+7,KANCHEEPURAM,Alandur,Paraniputhur,KUNDRATHUR,Sriperumbudur
+8,KANCHEEPURAM,Alandur,Periyapanicheri,KUNDRATHUR,Sriperumbudur
+9,KANCHEEPURAM,Alandur,Thandalam,KUNDRATHUR,Sriperumbudur
+10,KANCHEEPURAM,Alandur,Tharapakkam,KUNDRATHUR,Sriperumbudur
+11,KANCHEEPURAM,Alandur,CowlBazar,THOMAS MALAI,Sriperumbudur
+12,KANCHEEPURAM,Alandur,Moovarasampattu,THOMAS MALAI,Sriperumbudur
+13,KANCHEEPURAM,Chengalpattu,Alapakkam,KATTANKOLATHUR,Kancheepuram
+14,KANCHEEPURAM,Chengalpattu,Anjur,KATTANKOLATHUR,Kancheepuram
+15,KANCHEEPURAM,Chengalpattu,Appur,KATTANKOLATHUR,Kancheepuram
+16,KANCHEEPURAM,Chengalpattu,Athur,KATTANKOLATHUR,Kancheepuram
+17,KANCHEEPURAM,Chengalpattu,Chettipuniyam,KATTANKOLATHUR,Kancheepuram
+18,KANCHEEPURAM,Chengalpattu,Guruvanmedu,KATTANKOLATHUR,Kancheepuram
